@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(black 0%, darkGray 50%);
+    padding-bottom: 400px;
+}
+
+#myCanvas{
+    border-width:30px;
+    border-color: black;
+    border: True;
+}
