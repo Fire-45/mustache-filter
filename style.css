@@ -3,8 +3,11 @@ body{
     padding-bottom: 400px;
 }
 
-#myCanvas{
-    border-width:30px;
+canvas{
+    border-width:5px;
     border-color: black;
-    border: True;
-}
+    border-style: ridge;
+    background-color:white;
+    width: 400px;
+    height: 250px;
+} 
