@@ -1,5 +1,10 @@
+var noseX = 0;
+var noseY = 0;
+var img = "";
+
 function preload(){
 
+     img = loadImage("m.png");
 }
 
 function setup(){
@@ -27,6 +32,12 @@ function modelLoaded(){
 function gotPose(result){
     if(result.length > 0){
         console.log(result);
+
+        noseX = result[0].pose.nose.x;
+        noseY = result[0].pose.nose.y;
+
+        console.log(noseX);
+        console.log(noseY);
 
     }
 }
